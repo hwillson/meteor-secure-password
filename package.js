@@ -17,6 +17,7 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('hwillson:secure-password');
+  //api.use('hwillson:secure-password');
+  api.addFiles('hwillson:secure-password.js');
   api.addFiles('hwillson:secure-password-tests.js');
 });
