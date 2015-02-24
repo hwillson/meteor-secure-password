@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.addFiles('hwillson:secure-password.js');
+  api.export('SecurePassword');
 });
 
 Package.onTest(function(api) {
